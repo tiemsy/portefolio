@@ -13,7 +13,7 @@ require __DIR__ . '/partials/header.php';
         </p>
         <div class="hero-actions">
             <a class="btn primary" href="pages/contact.php">Me contacter</a>
-            <a class="btn secondary" href="pdf/cv_mohamed_camara.pdf" target="_blank" rel="noopener">Télécharger le CV</a>
+            <a class="btn secondary" href="pdf/CV_MTC.pdf" target="_blank" rel="noopener">Télécharger le CV</a>
         </div>
         <div class="stats">
             <article><strong>10+</strong><span>ans d’expérience</span></article>
