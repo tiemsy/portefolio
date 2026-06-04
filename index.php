@@ -16,7 +16,7 @@ require __DIR__ . '/partials/header.php';
             <a class="btn secondary" href="pdf/cv_mohamed_camara.pdf" target="_blank" rel="noopener">Télécharger le CV</a>
         </div>
         <div class="stats">
-            <article><strong>8+</strong><span>ans d’expérience</span></article>
+            <article><strong>10+</strong><span>ans d’expérience</span></article>
             <article><strong>PHP</strong><span>Laravel / Symfony</span></article>
             <article><strong>CMS</strong><span>WordPress senior</span></article>
         </div>
@@ -81,9 +81,9 @@ require __DIR__ . '/partials/header.php';
     <div class="cards-grid three">
         <?php foreach ($realizations as $project): ?>
             <article class="card project-card">
-                <span><?= htmlspecialchars($project['type']) ?></span>
+                <span><?= htmlspecialchars($project['category']) ?></span>
                 <h3><?= htmlspecialchars($project['title']) ?></h3>
-                <p><?= htmlspecialchars($project['description']) ?></p>
+                <p><?= htmlspecialchars($project['summary']) ?></p>
             </article>
         <?php endforeach; ?>
     </div>

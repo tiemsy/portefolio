@@ -3,7 +3,6 @@
 <footer class="site-footer">
     <div>
         <strong><?= htmlspecialchars($profile['shortName']) ?></strong>
-        <p>Portfolio PHP moderne, responsive, sans Bootstrap.</p>
     </div>
     <div class="footer-links">
         <a href="<?= $basePath ?>index.php">Accueil</a>
