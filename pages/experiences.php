@@ -41,8 +41,7 @@ require __DIR__ . '/../partials/header.php';
                             src="<?= $basePath ?>images/logos/<?= htmlspecialchars($experience['logo']) ?>"
                             alt="Logo <?= htmlspecialchars($experience['company']) ?>"
                             loading="lazy"
-                            onerror="this.style.display='none'"
-                        >
+                            onerror="this.style.display='none'">
                     <?php endif; ?>
                 </div>
 
@@ -81,7 +80,9 @@ require __DIR__ . '/../partials/header.php';
     </div>
     <div class="cards-grid two">
         <?php foreach ($formations as $formation): ?>
-            <article class="card"><p><?= htmlspecialchars($formation) ?></p></article>
+            <article class="card">
+                <p><?= htmlspecialchars($formation) ?></p>
+            </article>
         <?php endforeach; ?>
     </div>
 </section>

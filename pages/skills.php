@@ -139,7 +139,9 @@ $coreExpertise = [
     </div>
     <div class="cards-grid three">
         <?php foreach ($languages as $language): ?>
-            <article class="card language-card"><p><?= htmlspecialchars($language) ?></p></article>
+            <article class="card language-card">
+                <p><?= htmlspecialchars($language) ?></p>
+            </article>
         <?php endforeach; ?>
     </div>
     <div class="hero-actions skills-actions">
