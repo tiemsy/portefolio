@@ -1,9 +1,10 @@
 services:
   portfolio:
-    build: .
-    container_name: mtc-portfolio
+    build:
+      context: .
+      dockerfile: Dockerfile
+
     ports:
-      - "${PORT}:80"
-    volumes:
-      - .:/var/www/html
+      - "${PORT:-8090}:80"
+
     restart: unless-stopped
