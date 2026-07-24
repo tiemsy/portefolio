@@ -20,3 +20,7 @@
 <script src="<?= $basePath ?>assets/js/app.js"></script>
 </body>
 </html>
+<?php
+$renderedPage = ob_get_clean();
+echo localize_html($renderedPage, $lang);
+?>

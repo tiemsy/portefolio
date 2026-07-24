@@ -1,17 +1,21 @@
 <?php
 require_once __DIR__ . '/data.php';
+require_once __DIR__ . '/i18n.php';
 $currentPage = $currentPage ?? 'home';
 $pageTitle = $pageTitle ?? 'Portfolio';
 $basePath = $basePath ?? '';
 function isActive(string $page, string $currentPage): string { return $page === $currentPage ? ' active' : ''; }
+ob_start();
 ?>
 <!doctype html>
-<html lang="fr">
+<html lang="<?= htmlspecialchars($lang) ?>">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Portfolio de <?= htmlspecialchars($profile['shortName']) ?>, développeur PHP Laravel WordPress senior.">
     <title><?= htmlspecialchars($pageTitle) ?> — <?= htmlspecialchars($profile['shortName']) ?></title>
+    <link rel="alternate" hreflang="fr" href="?lang=fr">
+    <link rel="alternate" hreflang="en" href="?lang=en">
     <link rel="stylesheet" href="<?= $basePath ?>assets/css/style.css">
 </head>
 <body>
@@ -29,6 +33,10 @@ function isActive(string $page, string $currentPage): string { return $page === 
         <a class="<?= isActive('experiences', $currentPage) ?>" href="<?= $basePath ?>pages/experiences.php">Expériences</a>
         <a class="<?= isActive('realizations', $currentPage) ?>" href="<?= $basePath ?>pages/realizations.php">Réalisations</a>
         <a class="nav-cta<?= isActive('contact', $currentPage) ?>" href="<?= $basePath ?>pages/contact.php">Contact</a>
+        <span class="language-switcher" aria-label="Language selector">
+            <a class="<?= $lang === 'fr' ? 'active' : '' ?>" href="?lang=fr" lang="fr" hreflang="fr">FR</a>
+            <a class="<?= $lang === 'en' ? 'active' : '' ?>" href="?lang=en" lang="en" hreflang="en">EN</a>
+        </span>
     </nav>
 </header>
 <main>
