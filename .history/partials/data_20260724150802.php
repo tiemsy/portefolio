@@ -4,7 +4,7 @@ $profile = [
     'name' => 'Mohamed Tiemoko CAMARA',
     'shortName' => 'Mohamed T. CAMARA',
     'title' => 'Lead Developer PHP Laravel / WordPress Senior',
-    'location' => '78610 Le Perray-En-Yvelines, France',
+    'location' => '78500 Sartrouville, France',
     'experience' => '10+ ans d’expérience',
     'phone' => '07 81 32 17 19',
     'email' => 'mtiecamou@gmail.com',
@@ -28,7 +28,7 @@ $experiences = [
         'company' => 'Barasira',
         'period' => 'Septembre 2025 à ce jour',
         'role' => 'Fondateur & Lead Developer Full-stack',
-        'logo' => 'barasira.png',
+        'logo' => '',
         'url' => 'https://barasira.com',
         'description' => 'Conception et développement d’une plateforme de mise en relation entre clients et prestataires de services. L’application permet de publier des missions, d’y postuler, d’en suivre l’exécution et d’évaluer les prestations réalisées.',
         'missions' => [
@@ -36,11 +36,10 @@ $experiences = [
             'Développement du back-end et de l’API REST avec Laravel 12 et Sanctum.',
             'Création du front-end moderne avec Vue.js et Inertia.',
             'Développement des domaines utilisateurs, services, catégories, missions, candidatures et avis.',
-            'Implémentation d’une brique d’intelligence artificielle intégrée à Laravel pour analyser le contexte des demandes et assister les utilisateurs avec des suggestions pertinentes, tout en encadrant les échanges et les réponses côté serveur.',
             'Mise en place du déploiement automatisé avec Coolify.',
             'Préparation de l’écosystème mobile avec Flutter.',
         ],
-        'items' => ['PHP 8', 'Laravel 12', 'API REST', 'Sanctum', 'Intelligence artificielle', 'Vue.js', 'Inertia', 'SCSS', 'Flutter', 'Coolify']
+        'items' => ['PHP 8', 'Laravel 12', 'API REST', 'Sanctum', 'Vue.js', 'Inertia', 'SCSS', 'Flutter', 'Coolify']
     ],
     [
         'company' => 'Citeo',
@@ -219,10 +218,9 @@ $realizations = [
         'missions' => [
             'Objectif: permettre aux clients de publier des missions et aux prestataires d’y postuler, exécuter, puis recevoir une évaluation.',
             'Domaines couverts: utilisateurs, services, catégories, missions, candidatures, avis.',
-            'Intégration d’une brique d’intelligence artificielle orchestrée par Laravel : elle exploite le contexte des demandes pour assister les utilisateurs et générer des suggestions pertinentes, avec un traitement sécurisé côté serveur.',
             'Deploiement automatisé avec Coolify',
         ],
-        'stack' => ['PHP8', 'Laravel 12', 'API', 'Intelligence artificielle', 'SCSS', 'Vuejs', 'Flutter'],
+        'stack' => ['PHP8', 'Laravel 12', 'API', 'SCSS', 'Vuejs', 'Flutter'],
     ],
     [
         'title' => 'Mesta Control Center - MCC',

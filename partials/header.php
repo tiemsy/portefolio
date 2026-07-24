@@ -20,7 +20,7 @@ function isActive(string $page, string $currentPage): string { return $page === 
         <span class="brand-mark">MTC</span>
         <span><?= htmlspecialchars($profile['shortName']) ?></span>
     </a>
-    <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false">
+    <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Ouvrir le menu">
         <span></span><span></span><span></span>
     </button>
     <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
