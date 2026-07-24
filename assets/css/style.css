@@ -84,6 +84,22 @@ main { overflow: hidden; }
 .main-nav a:hover, .main-nav a.active { color: var(--ink); background: #ebe7de; }
 .main-nav .nav-cta { margin-left: .35rem; color: white; background: var(--blue); }
 .main-nav .nav-cta:hover, .main-nav .nav-cta.active { color: white; background: var(--blue-dark); transform: translateY(-1px); }
+.language-switcher {
+    display: inline-flex;
+    gap: .15rem;
+    margin-left: .4rem;
+    padding: .2rem;
+    background: #ebe7de;
+    border-radius: 10px;
+}
+.main-nav .language-switcher a {
+    min-width: 34px;
+    padding: .45rem .5rem;
+    text-align: center;
+    border-radius: 8px;
+    font-size: .72rem;
+}
+.main-nav .language-switcher a.active { color: white; background: var(--ink); }
 .menu-toggle {
     display: none;
     width: 44px;
@@ -402,6 +418,7 @@ select { appearance: none; }
     .main-nav { position: absolute; inset: 58px 0 auto; display: none; flex-direction: column; align-items: stretch; padding: .75rem; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); }
     .main-nav.open { display: flex; }
     .main-nav .nav-cta { margin: .25rem 0 0; text-align: center; }
+    .language-switcher { margin: .4rem 0 0; justify-content: center; }
     .hero, .about-grid, .contact-layout, .skills-intro-grid { grid-template-columns: 1fr; }
     .hero { min-height: auto; }
     .hero-card { width: min(100%, 520px); margin: 1rem auto 0; }
