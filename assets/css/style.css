@@ -353,7 +353,7 @@ main { overflow: hidden; }
 .realizations-grid { display: grid; gap: 1.2rem; }
 .realization-card { display: grid; grid-template-columns: minmax(240px,.85fr) 1.4fr; gap: 1.5rem; padding: 1rem; overflow: hidden; box-shadow: none; }
 .realization-media { min-height: 280px; display: grid; place-items: center; overflow: hidden; background: #e5ede7; border-radius: calc(var(--radius) - 7px); }
-.realization-media img { width: 100%; height: 100%; min-height: 280px; object-fit: cover; display: block; transition: transform .45s ease; }
+.realization-media img { width: 100%; height: 100%; min-height: 280px; display: block; transition: transform .45s ease; }
 .realization-card:hover .realization-media img { transform: scale(1.035); }
 .realization-media span { color: var(--blue); font-size: 3rem; font-weight: 900; }
 .realization-content { padding: .8rem .8rem .8rem 0; }
@@ -446,7 +446,7 @@ select { appearance: none; }
     .section { padding-block: 4rem; }
     .page-hero { padding-top: 6rem; }
     .form-grid, .checkbox-group { grid-template-columns: 1fr; display: grid; }
-    .realization-media, .realization-media img { min-height: 210px; }
+    .realization-media { min-height: 210px; }
 }
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
