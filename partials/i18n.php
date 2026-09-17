@@ -69,7 +69,7 @@ function localize_html(string $html, string $lang): string
         'Formation' => 'Education',
         'Formations' => 'Education & training',
         'Depuis 2025' => 'Since 2025',
-        'Novembre 2023 à Juillet 2025' => 'November 2023 to July 2025',
+        'Novembre 2023 à Décembre 2025' => 'November 2023 to December 2025',
         'Avril 2022 à Septembre 2023' => 'April 2022 to September 2023',
         'Juillet 2021 à Avril 2022' => 'July 2021 to April 2022',
         'Janvier 2021 à Juin 2021' => 'January 2021 to June 2021',
