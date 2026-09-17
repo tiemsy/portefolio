@@ -44,7 +44,7 @@ $experiences = [
     ],
     [
         'company' => 'Citeo',
-        'period' => 'Novembre 2023 à Juillet 2025',
+        'period' => 'Novembre 2023 à Décembre 2025',
         'role' => 'Développeur Senior PHP Full-stack WordPress',
         'logo' => '',
         'url' => 'https://www.citeo.com/',
